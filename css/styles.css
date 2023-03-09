@@ -25,10 +25,13 @@ nav a {
 	color: #210C3D;
 	padding: 1%;
 	font-family: 'Cinzel', serif;
+	transition-duration: .5s;
 }
 
 nav a:hover, .btn:hover {
 	text-shadow: .17vw .17vw .3vw #210C3D;
+	font-size: 2.1vw;
+	transform: rotate(360deg);
 }
 
 nav li {
@@ -84,11 +87,12 @@ fieldset {
 }
 
 .btn {
-	padding: .5%;
+	padding: 2% .5%;
 	margin: 0 5%;
-	font-size: 1.75vw;
+	font-size: 2vw;
 	background: none;
 	font-family: 'Cinzel', serif;
+	transition-duration: .5s;
 }
 
 .tBox {
@@ -103,6 +107,7 @@ fieldset {
 
 footer p {
 	text-align: center;
+	padding: 2%;
 }
 
 footer a {
